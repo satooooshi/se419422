@@ -1,0 +1,65 @@
+
+apiVersion: extensions/v1beta1
+ 
+kind: Deployment
+ 
+metadata:
+ 
+  name: kube-node
+ 
+spec:
+ 
+  replicas: 2
+ 
+  template:
+ 
+    metadata:
+ 
+      labels:
+ 
+        app: web
+ 
+    spec:
+ 
+      containers:
+ 
+        - name: kube-node-demo-instance
+ 
+          image: superheatedboy/myapp
+ 
+          ports:
+ 
+            - containerPort: 8080
+            
+
+#how to start
+#minikube
+##https://blog.csdn.net/forezp/article/details/82563153
+#how to create deployment
+#https://blog.csdn.net/wucong60/article/details/81586272
+
+#minikube delete
+#rm -rf ~/.minikube  
+# minikube start
+#OR
+#minikube start --registry-mirror=https://registry.docker-cn.com
+#when minicube running...
+#docker images
+#docker login
+#docker tag firstimage YOUR_USERNAME/imageName
+#docker push YOUR_USERNAME/imageName
+
+#kubectl create -f example-demo.yaml
+#kubectl get pods
+#kubectl delete deployments/kube-node
+#kubectl describe pods/kubectl 
+#kubectl get pods -o wide       to get IP
+
+
+#want to try this!!
+#In order to expose springboot apps in minicube...
+#https://www.jianshu.com/p/592da53cdff0?utm_source=oschina-app
+
+#https://wpp65.iteye.com/blog/2432339
+
+

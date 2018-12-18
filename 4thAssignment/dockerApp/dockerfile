@@ -1,13 +1,29 @@
 #https://www.jianshu.com/p/a25c82bc5260
-#docker run --name mywebapp -p 8080:8080 -d myapp
+
 
 #docker build -t myapp .
 #docker images
+#docker run --name mywebapp -p 8080:8080 -d myapp
+#OR
 #docker run -it #{利用したいイメージ} /bin/bash
 # entered container...
 #java -jar mydockerapp.jar
 #exit
 #lsof -n -i4TCP:8080 | kill -9
+
+#HASNT SUCCEED
+#docker useful commands
+#http://www.debug8.com/java/t_11603.html
+#MAIN  https://wpp65.iteye.com/blog/2432339
+#https://blog.csdn.net/wucong60/article/details/81586272
+
+#TRYING THESE NOW!!
+#install kubectl
+#https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-with-homebrew-on-macos
+#install minicube
+#https://blog.csdn.net/forezp/article/details/82563153
+
+
 
 FROM openjdk:8
 MAINTAINER SatoshiAIKAWA
