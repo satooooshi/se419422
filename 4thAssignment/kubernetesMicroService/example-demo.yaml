@@ -45,6 +45,9 @@ spec:
 #minikube start --registry-mirror=https://registry.docker-cn.com
 #ATTENTION minikube start --registry-mirror=https://registry.docker-cn.com when dzy success without vpn
 #when minicube running...
+
+#image: superheatedboy/myapp should have been already updated to the dockerhub 
+#OR use local image with mySecretKey <-- hasnt tried yet
 #docker images
 #docker login
 #docker tag firstimage YOUR_USERNAME/imageName
