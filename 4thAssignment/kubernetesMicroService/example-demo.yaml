@@ -47,7 +47,7 @@ spec:
 #when minicube running...
 
 #image: superheatedboy/myapp should have been already updated to the dockerhub 
-#OR use local image with mySecretKey <-- hasnt tried yet
+#OR use local image with imagePullPolicy <-- hasnt tried yet
 #docker images
 #docker login
 #docker tag firstimage YOUR_USERNAME/imageName
@@ -60,8 +60,9 @@ spec:
 #kubectl get pods -o wide       to get IP
 
 #https://www.jianshu.com/p/3b419cc7d290
+#https://www.jianshu.com/p/592da53cdff0?utm_source=oschina-app
 #expose service
-#kubectl expose deployment hello-minikube --type=NodePort
+#kubectl expose deployment kube-node --type=NodePort
 #checkout exposed service
 #kubectl get services
 #minikube service kube-node --url

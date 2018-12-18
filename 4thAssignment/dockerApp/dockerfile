@@ -3,7 +3,7 @@
 
 #docker build -t myapp .
 #docker images
-#docker run --name mywebapp -p 8080:8080 -d myapp
+#docker run --name mywebapp -p 8080:8080 -d myapp #Ex. -p 8000:80 == onnections to localhost:8000 from "host computer" are sent to port 80 in the" container"
 #OR
 #docker run -it #{利用したいイメージ} /bin/bash
 # entered container...
