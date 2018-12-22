@@ -8,3 +8,6 @@
 #java -jar mydockerapp.jar  
 #exit  
 #lsof -n -i4TCP:8080 | kill -9  
+
+#This is new frontend
+#https://blogg.kantega.no/webapp-with-create-react-app-and-spring-boot/

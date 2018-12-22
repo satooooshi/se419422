@@ -1,9 +1,9 @@
 #https://www.jianshu.com/p/a25c82bc5260
 
-
+#In the directory containing dockerfile
 #docker build -t myapp .
 #docker images
-#docker run --name mywebapp -p 8080:8080 -d myapp #Ex. -p 8000:80 == onnections to localhost:8000 from "host computer" are sent to port 80 in the" container"
+#docker run --name mywebapp -p 8080:8080 -d myapp #Ex. -p 8000:80 == connections to localhost:8000 from "host computer" are sent to port 80 in the" container"
 #OR
 #docker run -it #{利用したいイメージ} /bin/bash
 # entered container...
@@ -22,6 +22,9 @@
 #https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-with-homebrew-on-macos
 #install minicube
 #https://blog.csdn.net/forezp/article/details/82563153
+
+#command reference
+#https://morizyun.github.io/docker/about-docker-command.html
 
 
 

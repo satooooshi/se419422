@@ -21,3 +21,10 @@
 **Topic:** Set up Kafka, Implement producer & customer, Test performance
 
 **Date:** November 2018
+
+SE419 / SE422 4nd Assignment
+Team members: HOKHY TANN, 董宇涛, 会川慧
+
+Topic: Deploy your app on kubernetes
+
+Date: January 2019
